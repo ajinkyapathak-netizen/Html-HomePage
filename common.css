@@ -1,0 +1,110 @@
+* {
+    padding: 0px;
+    margin: 0px;
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    border-radius: 10px;
+    background-color: #fdf0d5;
+}
+
+
+#navbar {
+    height: 10vh;
+    background-color: #9a8c98;
+    color: white;
+    font-weight: bolder;
+    font-size: x-large;
+    align-items: end;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+    
+}
+
+
+
+
+.logo a {
+    font: bolder;
+    color: white;
+    font-size: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+.text a {
+    color: white;
+    text-decoration: none;
+}
+
+.box h3 {
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+}
+.box h3:hover {
+    color: red;
+}
+
+.main {
+    display: flex;
+    justify-content:space-around;
+    text-align: center;
+}
+
+.tools {
+    height: 250px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    border: none;
+    border-radius: 10px;
+    margin-top: 40px;
+    background-color: #d4a373;
+    color: aliceblue;
+    font-size:larger;
+}
+
+.tools:hover {
+    color: red;
+
+}
+
+img {
+    margin: 10px;
+    width: 200px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 50%;
+    
+}
+
+footer {
+    align-items: end;
+    height: 20vh;
+    text-align: center;
+    color: white;
+    background-color: black;
+   margin-top: 25vh;
+}
+
+a button {
+    background-color: orange;
+    height: 25px;
+    width: 50px;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    text-decoration: underline;
+    font-size: 15px;
+    font-style: italic;
+    position: relative;
+    top: 10vh;
+    left: 90vw;
+    cursor: pointer;
+}

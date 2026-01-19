@@ -1,0 +1,99 @@
+* {
+    padding: 0px;
+    margin: 0px;
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    border-radius: 10px;
+    background-color: #fdf0d5;
+}
+
+ .search input {
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 4px;
+}
+
+.search input:hover {
+    color: darkorange;
+}
+
+
+#navbar {
+    height: 10vh;
+    background-color: #9a8c98;
+    color: white;
+    font-weight: bolder;
+    font-size: x-large;
+    align-items: end;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+    
+}
+
+
+
+
+.logo a {
+    font: bolder;
+    color: white;
+    font-size: 40px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+.text a {
+    color: white;
+    text-decoration: none;
+}
+
+.main {
+    display: flex;
+    justify-content:space-around;
+    text-align: center;
+}
+
+.tools {
+    height: 250px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    border: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: #d4a373;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size:larger;
+}
+
+.tools:hover {
+    color: red;
+
+}
+
+img {
+    margin: 10px;
+    width: 200px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 50%;
+    
+}
+
+footer {
+    align-items: end;
+    height: 20vh;
+    text-align: center;
+    color: white;
+    background-color: black;
+   margin-top: 30vh;
+}
